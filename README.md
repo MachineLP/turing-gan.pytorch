@@ -9,6 +9,11 @@ So, following are my experiments' resulting image data.
 - All the experiments used spectral normalization for 1-Lipschitz contraint enforcement. 
 - I trained all of the Turing GANs with both Jensen-Shannon and Wasserstein divergences.
 
+I performed experiments on the following datasets:
+- CIFAR-10
+- MNIST
+- Fashion-MNIST
+
 ### CIFAR-10
 #### Turing Standard GAN with Spectral Normalization
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/sgan/samples/cifar-10/latest_100000.png)
