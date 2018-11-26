@@ -8,6 +8,7 @@ So, following are my experiments' resulting image data.
 - For all the experiments the images shown below are sampled after **100K iterations** of training the Turing GAN on various datasets. 
 - All the experiments used [spectral normalization](https://arxiv.org/abs/1802.05957) for 1-Lipschitz contraint enforcement. 
 - I trained all of the Turing GANs with both *Jensen-Shannon* and *Wasserstein* divergences.
+- All experiments were performed with same hyper-parameters as devised in paper.
 
 Using [32-sized Turing GAN](https://github.com/rahulbhalley/turing-gan.pytorch/blob/master/t_sn_gan_32.py) I performed experiments on the following dataset(s):
 - CIFAR-10
@@ -15,21 +16,18 @@ Using [32-sized Turing GAN](https://github.com/rahulbhalley/turing-gan.pytorch/b
 - Fashion-MNIST
 
 ### CIFAR-10
-#### Turing Standard GAN with Spectral Normalization
+#### Turing Standard GAN (Left) | Turing Wasserstein GAN (Right) [Both Spectrally Normalized]
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/sgan/samples/cifar-10/latest_100000.png)
-#### Turing Wasserstein GAN with Spectral Normalization
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/wgan/samples/cifar-10/latest_100000.png)
 
 ### MNIST
-#### Turing Standard GAN with Spectral Normalization
+#### Turing Standard GAN (Left) | Turing Wasserstein GAN (Right) [Both Spectrally Normalized]
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/sgan/samples/mnist/latest_100000.png)
-#### Turing Wasserstein GAN with Spectral Normalization
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/wgan/samples/mnist/latest_100000.png)
 
 ### Fashion MNIST
-#### Turing Standard GAN with Spectral Normalization
+#### Turing Standard GAN (Left) | Turing Wasserstein GAN (Right) [Both Spectrally Normalized]
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/sgan/samples/fashion-mnist/latest_100000.png)
-#### Turing Wasserstein GAN with Spectral Normalization
 ![](https://github.com/rahulbhalley/turing-gan.pytorch/raw/master/wgan/samples/fashion-mnist/latest_100000.png)
 
 ## References
