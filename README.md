@@ -1,15 +1,15 @@
 # Turing Generative Adversarial Network
-[Turing GANs](https://arxiv.org/abs/1810.10948) are quick to train! This excited me to write my own versions in [PyTorch](https://pytorch.org) which is based on the original Keras [implementation](https://github.com/bojone/T-GANs).
+[Turing GANs](https://arxiv.org/abs/1810.10948) are *quick to train!* This excited me to write my own versions in [PyTorch](https://pytorch.org) which is based on the original Keras [implementation](https://github.com/bojone/T-GANs).
 
 ## Experiments
 So, following are my experiments' resulting image data.
 
 ### Note
-- For all the experiments the images shown below are sampled after 100K iterations of training the Turing GAN on various datasets. 
-- All the experiments used spectral normalization for 1-Lipschitz contraint enforcement. 
-- I trained all of the Turing GANs with both Jensen-Shannon and Wasserstein divergences.
+- For all the experiments the images shown below are sampled after **100K iterations** of training the Turing GAN on various datasets. 
+- All the experiments used [spectral normalization](https://arxiv.org/abs/1802.05957) for 1-Lipschitz contraint enforcement. 
+- I trained all of the Turing GANs with both *Jensen-Shannon* and *Wasserstein* divergences.
 
-I performed experiments on the following datasets:
+Using [32-sized Turing GAN](https://github.com/rahulbhalley/turing-gan.pytorch/blob/master/t_sn_gan_32.py) I performed experiments on the following dataset(s):
 - CIFAR-10
 - MNIST
 - Fashion-MNIST
