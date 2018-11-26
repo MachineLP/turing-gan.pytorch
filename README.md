@@ -1,5 +1,5 @@
 # Turing Generative Adversarial Network
-I found Turing GAN a way to train GANs quickly! This excited me to write my own versions in [PyTorch](https://pytorch.org) refering the original Keras [code](https://github.com/bojone/T-GANs).
+[Turing GANs](https://arxiv.org/abs/1810.10948) are quick to train! This excited me to write my own versions in [PyTorch](https://pytorch.org) which is based on the original Keras [implementation](https://github.com/bojone/T-GANs).
 
 ## Experiments
 So, following are my experiments' resulting image data.
