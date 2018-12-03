@@ -35,3 +35,6 @@ Using [32-sized Turing GAN](https://github.com/rahulbhalley/turing-gan.pytorch/b
 - Original [T-GANs](https://github.com/bojone/T-GANs) implementation
 - Spectral Normalization for Generative Adversarial Networks [[arXiv](https://arxiv.org/abs/1802.05957)]
 - Spectral Normalization [implementation](https://github.com/christiancosgrove/pytorch-spectral-normalization-gan/blob/master/spectral_normalization.py) in [PyTorch](https://pytorch.org)
+
+## Contact
+Reach me at `rahulbhalley@icloud.com`.
