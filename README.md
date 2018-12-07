@@ -1,7 +1,7 @@
 # Turing Generative Adversarial Network
 [Turing GANs](https://arxiv.org/abs/1810.10948) are *quick to train!* This excited me to write my own versions in [PyTorch](https://pytorch.org) which is based on the original Keras [implementation](https://github.com/bojone/).
 
-Thanks [Jianlin Su](https://github.com/bojone/T-GANs), *creator of Turing GANs*, for referring this code as [PyTorch](https://pytorch.org) implementation of [Turing GANs](https://arxiv.org/abs/1810.10948)!
+Thanks [Jianlin Su](https://github.com/bojone/T-GANs), *creator of Turing GANs*, for suggesting this code as [PyTorch](https://pytorch.org) implementation of [Turing GANs](https://arxiv.org/abs/1810.10948)!
 
 ## Experiments
 So, following are my experiments' resulting image data.
